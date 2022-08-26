@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980537798604",
+    "project_id": "veterinarymedicinelibrar-a7221",
+    "storage_bucket": "veterinarymedicinelibrar-a7221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980537798604:android:e83bde639c82cd35c63769",
+        "android_client_info": {
+          "package_name": "com.example.veterinarymedicinelibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980537798604-i8hpj4pck9bsdvgfnq6b1dob7vehjiea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfSHMEnJxWaNQbYoFwDAR4SmDar99QIwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980537798604-i8hpj4pck9bsdvgfnq6b1dob7vehjiea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

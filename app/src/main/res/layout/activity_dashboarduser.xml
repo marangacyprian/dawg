@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".Dashboarduser">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/idtoolbarRl"
+        android:background="@drawable/shapetoolbar2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleIv"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="Dashboard user"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subtitleIv"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_centerHorizontal="true"
+            android:text="this is your user dashboard"
+            android:layout_below="@+id/titleIv"
+            android:textColor="@color/white"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutbtn"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_baseline_power_settings_new_24"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idtoolbarRl"
+        android:layout_margin="10dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp">
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_margin="5dp">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/cypr"
+                    android:src="@drawable/politcs"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cypr"
+                    android:textColor="#0A23C4"
+
+                    android:text="political science"/>
+
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/romance"
+                        android:src="@drawable/romance"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/romance"
+                        android:textColor="#0A23C4"
+
+                        android:text="romance"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/education"
+                        android:src="@drawable/education"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/education"
+                        android:textColor="#0A23C4"
+
+                        android:text="education"/>
+
+                </RelativeLayout>
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/healthscience"
+                        android:src="@drawable/health"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/healthscience"
+                        android:textColor="#0A23C4"
+
+                        android:text="health science"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/comic"
+                        android:src="@drawable/comic"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/comic"
+                        android:textColor="#0A23C4"
+
+                        android:text="comics"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/legends"
+                        android:src="@drawable/legends"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/legends"
+                        android:textColor="#0A23C4"
+
+                        android:text="legends"/>
+
+                </RelativeLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/cultre"
+                        android:src="@drawable/cultre"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cultre"
+                        android:textColor="#0A23C4"
+
+                        android:text="culture"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/religion"
+                        android:src="@drawable/religion"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/religion"
+                        android:textColor="#0A23C4"
+
+                        android:text="Religion"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/statistics"
+                        android:src="@drawable/statistics"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/statistics"
+                        android:textColor="#0A23C4"
+                        android:text="statistics"/>
+
+                </RelativeLayout>
+
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".Dashboarduser">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/idtoolbarRl"
+        android:background="@drawable/shapetoolbar2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleIv"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="Romance books"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subtitleIv"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_centerHorizontal="true"
+            android:text="this is your user dashboard"
+            android:layout_below="@+id/titleIv"
+            android:textColor="@color/white"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backbtn"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+    </RelativeLayout>
+</RelativeLayout>
